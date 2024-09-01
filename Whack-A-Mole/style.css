@@ -1,0 +1,47 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+  background: url("./mario-bg.jpg");
+  /*this adds img via css just add ./ then it will automatically give u link options*/
+  background-size:100%;
+
+}
+
+#board{
+    width:540px;
+    height:540px;
+
+    background: url("./soil.png");
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 25px;
+
+    margin:auto; /*aligns board to the center*/
+    display: flex;
+    flex-wrap:wrap; /*line 15 and 16 will make sure that
+    cheques will be from l to r and top to bottom of the
+    board w/o falling out of the board*/
+
+}
+
+#board div{
+    width:180px;
+    height:180px;
+    background-image:url("./pipe.png");
+    background-size: cover;
+
+}
+
+#board div  img{
+    /*to put mole in tile pipes*/
+    width:100px;
+    height:100 px;
+
+    /*code so that img is not draggable or highlight*/
+    user-select:none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-uder-select:none;
+    -ms-user-select:none;
+
+}
