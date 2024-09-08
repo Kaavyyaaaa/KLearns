@@ -1,0 +1,54 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,helvetica, Georgia, 'Times New Roman', Times, serif;
+    background-color: hsl(0, 10%, 77%);
+}
+
+h1{
+   background-color: hsl(180, 20%, 80%);
+   border-radius: 5px; 
+}
+
+form{
+    background-color: azure;
+    text-align: center;
+    max-width: 350px;
+    margin:auto;
+    padding:25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px hsla(0, 8%, 63%, 0.767);
+}
+
+#textbox{
+    width:50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsl(180, 20%, 80%);
+    border-radius: 4px;
+    margin-bottom:15px ;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 15px;
+    background-color: hsla(204, 91%, 47%, 0.833);
+    color:rgb(248, 246, 246);
+    font-size: 1.5em;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor:pointer;
+
+}
+
+button:hover{
+    background-color:rgb(27, 132, 202) ;
+}
+
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
+}
