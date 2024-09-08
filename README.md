@@ -1,1 +1,1 @@
-In this repositry I am going to add simple web dev projects which help me in learning and understanding concepts in a deeper level. 
+In this repository, I will add simple web dev projects that help me learn and understand concepts more deeply. 
