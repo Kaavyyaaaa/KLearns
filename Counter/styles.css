@@ -1,0 +1,32 @@
+#MyH1{
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#MyH2{
+    display:block;
+    text-align: center;
+    font-size: 10em;
+    font-family: helvetica;
+}
+#MyDiv{
+    text-align: center;
+    
+}
+
+
+.Buttons{
+    padding:10px 20px;
+    font-size: 2em;
+    background-color: hsl(180, 68%, 33%);
+    color: rgb(239, 240, 242);
+    border-radius: 5px ;
+    cursor: pointer;
+    transition:background-color 0.25s;
+    
+}
+
+.Buttons:hover{
+    background-color: hsl(180, 76%, 18%);
+}
