@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(attack-on-titan-beach-4k-dg-1920x1080.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    margin: 0;
+}
+
+#myH1{
+    font-size: 4rem;
+    font-family: helvetica;
+    color:hsl(207, 51%, 88%);
+}
+
+#container{
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+    padding:30px;
+    
+    background-color: hsl(0, 0%, 100%, 0.1);
+    backdrop-filter: blur(4px); 
+    border-radius: 5px;
+}
+
+#display{
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: monospace;
+    color: hsl(232, 42%, 89%);
+    text-shadow: 2px 2px 2px hsl(220, 84%, 15%);
+    margin-bottom: 25px;
+}
+
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    background-color: hsla(210, 65%, 25%, 0.67); 
+    border-radius:12px;
+    color: hsl(208, 100%, 97%);
+    cursor: pointer; 
+    transition: background-color 0.5s ease;
+
+}
+
+#controls button:hover{
+    background-color: hsla(210, 71%, 11%, 0.829); 
+}
